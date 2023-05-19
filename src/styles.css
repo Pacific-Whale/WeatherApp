@@ -1,0 +1,57 @@
+body {
+  text-align: center;
+  font-family: monospace;
+}
+h1 {
+  padding: 25px;
+  font-size: 50px;
+}
+h3,
+h4,
+.currentWeather,
+.weatherPrediction {
+  padding: 20px;
+}
+.card {
+  margin: 30px auto;
+  max-width: 500px;
+  background: rgb(241, 245, 240);
+  background: linear-gradient(
+    0deg,
+    rgba(241, 245, 240, 1) 0%,
+    rgba(211, 226, 209, 1) 100%
+  );
+}
+.currentWeatherImage {
+  font-size: 80px;
+}
+.currentWeatherTemperature {
+  font-size: 25px;
+  padding: 25px 0 15px;
+}
+.currentWeatherParametrs {
+  font-size: 17px;
+  padding: 5px 0 20px;
+}
+.predictionWeatherTemperature {
+  font-size: 22px;
+}
+.predictionWeatherImage {
+  font-size: 40px;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+  color: black;
+}
