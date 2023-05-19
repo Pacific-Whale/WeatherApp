@@ -55,3 +55,15 @@ a:active {
   text-decoration: none;
   color: black;
 }
+#githubLink:link {
+  color: #007bff;
+}
+#githubLink:visited {
+  color: #007bff;
+}
+#githubLink:hover {
+  color: #007bff;
+}
+#githubLink:active {
+  color: #007bff;
+}

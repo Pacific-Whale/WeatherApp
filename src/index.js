@@ -131,7 +131,7 @@ function showTemperature(response) {
   console.log(response.data.weather[0].description);
 }
 
-function location(position) {
+function userLocation(position) {
   let latitude = position.coords.latitude;
   let longitude = position.coords.longitude;
   let apiKey = "96ad27349a64ea1dcdfbe6f4d458c085";
@@ -141,7 +141,7 @@ function location(position) {
 }
 
 function getCurrentPosition() {
-  navigator.geolocation.getCurrentPosition(location);
+  navigator.geolocation.getCurrentPosition(userLocation);
 }
 
 let locationButton = document.querySelector("#locationButton");
