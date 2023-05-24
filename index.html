@@ -47,21 +47,27 @@
         <h3 id="currentDate">Saturday, April 15, 16:48</h3>
         <h4>Partly Cloudly</h4>
         <div class="row currentWeather">
-          <div class="col-6 currentWeatherImage">🌤️</div>
+          <div class="col-6 currentWeatherImage">
+            <img
+              src="https://openweathermap.org/img/wn/01d.png"
+              alt="Clear "
+              id="weatherIcon"
+            />
+          </div>
           <div class="col-6 currentWeatherTemperature">
             <span id="currentTemperature">10</span>
-            <a href="#" id="celsiusLnk">°C</a>|<a href="#" id="fahrenheitLink"
+            <a href="#" id="celsiusLnk" class="active">°C</a>|<a
+              href="#"
+              id="fahrenheitLink"
               >°F</a
             >
-            <br />Feels like <span id="currentTempFeelsLike">8</span> °C
           </div>
         </div>
         <div class="row currentWeatherParametrs">
-          <div class="col-4">Wind: <span id="currentWind">2</span> km/h</div>
-          <div class="col-4">
+          <div class="col-6">Wind: <span id="currentWind">2</span> km/h</div>
+          <div class="col-6">
             Humidity: <span id="currentHumidity">45</span>%
           </div>
-          <div class="col-4">UV index: <span id="currentUVIndex">2</span></div>
         </div>
         <div class="row weatherPrediction">
           <div class="col predictionWeatherTemperature">
