@@ -67,4 +67,5 @@ h4 {
 #githubLink:hover,
 #githubLink:active {
   color: #007bff;
+  text-decoration: none;
 }
