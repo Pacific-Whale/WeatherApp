@@ -46,11 +46,7 @@ h4 {
 #celsiusLnk:link,
 #celsiusLnk:visited,
 #celsiusLnk:hover,
-#celsiusLnk:active,
-#fahrenheitLink:link,
-#fahrenheitLink:visited,
-#fahrenheitLink:hover,
-#fahrenheitLink:active {
+#celsiusLnk:active {
   text-decoration: none;
 }
 
