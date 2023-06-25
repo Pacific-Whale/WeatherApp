@@ -8,8 +8,7 @@ h1 {
 }
 h3,
 h4,
-.currentWeather,
-.weatherPrediction {
+.currentWeather {
   padding: 20px;
 }
 h4 {
@@ -37,11 +36,8 @@ h4 {
   font-size: 17px;
   padding: 5px 0 20px;
 }
-.predictionWeatherTemperature {
-  font-size: 22px;
-}
-.predictionWeatherImage {
-  font-size: 40px;
+.weather-forecast-date {
+  font-size: 20px;
 }
 #celsiusLnk:link,
 #celsiusLnk:visited,
@@ -64,4 +60,21 @@ h4 {
 #githubLink:active {
   color: #007bff;
   text-decoration: none;
+}
+.forecastDesign {
+  box-shadow: 1px 1px 1px 1px white inset;
+  background: rgb(211, 226, 209);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.5;
+}
+
+.weather-forecast-temperatures {
+  font-size: 13px;
+}
+
+.forecastImage {
+  width: 60px;
 }
